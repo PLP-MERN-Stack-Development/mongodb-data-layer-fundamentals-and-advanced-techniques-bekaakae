@@ -4,7 +4,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URL
-const url = '';
+const url = 'mongodb://localhost:27017/plp_bookstore';
 const dbName = 'plp_bookstore';
 const collectionName = 'books';
 
